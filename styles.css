@@ -1,0 +1,44 @@
+/* ตั้งค่าพื้นฐานสำหรับหน้า */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #6a11cb, #2575fc); /* พื้นหลังไล่สี */
+  }
+  
+  /* ตกแต่งกล่อง */
+  .from-box {
+    position: relative;
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+    padding: 20px 30px;
+    background: #fff;
+    border-radius: 15px; /* มุมโค้ง */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); /* เงา */
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* เพิ่มการโต้ตอบเมื่อเลื่อนเมาส์ */
+  .from-box:hover {
+    transform: scale(1.05); /* ขยายกล่อง */
+  }
+  
+  /* หัวข้อหลัก */
+  .from-box h1 {
+    font-size: 24px;
+    margin: 0 0 10px;
+    color: #6a11cb;
+  }
+  
+  /* ข้อความปกติ */
+  .from-box p {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+  }
+  
